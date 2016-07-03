@@ -1,0 +1,26 @@
+spring.jmx:
+   enabled: false
+
+server:
+  port: 3000
+
+#make sure to always enable security in production
+security:
+  basic:
+    enabled: false
+
+#management endpoints on a separate port
+
+#default project info followed by actual injected pom-specified values.
+project:
+  name: weather-web
+  version: 0.1
+  description: weather-web
+info:
+  build:
+    artifact: ${project.artifactId}
+    name: ${project.name}
+    description: ${project.description}
+    version: ${project.version}
+
+

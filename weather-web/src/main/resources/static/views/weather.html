@@ -1,0 +1,98 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div>
+                <form class="form-inline" role="form">
+                        <span class="btn-group">
+                            <button ng-repeat="item in exampleLocations" ng-click="setLocation(item)" type="submit"
+                                    class="btn btn-default">{{item}}</button>
+                        </span>
+                        <span class="form-group {{hasState}}">
+                            <label class="sr-only" for="location">City</label>
+                            <input ng-model="location" type="text" class="form-control" id="location"
+                                   placeholder="City">
+                        </span>
+                    <button ng-click="getForecastByLocation(location)" type="submit" class="btn btn-primary">
+                        Get Weather Details!
+                    </button>
+                    <span ng-show="message" class="alert"><span class="glyphicon glyphicon-arrow-left">&nbsp;</span>{{message}}</span>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div ng-show="hasData">
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="col-md-6">
+                    <span>
+                        Today's Date : {{weather.today}}
+                    </span>
+                </div>
+
+                <div class="col-md-6">
+                   <span>                    City Name : {{weather.cityCurrentWeather.name}}, {{weather.cityCurrentWeather.country}}
+</span>
+                </div>
+
+            </div>
+        </div>
+
+        <hr>
+        <br>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="col-md-6">
+                    <span>
+                        Weather Generally : {{weather.cityCurrentWeather.condition.weather.main}}
+                    </span>
+                </div>
+
+                <div class="col-md-6">
+                   <span>              Weather      Description : {{weather.cityCurrentWeather.condition.weather.description}}
+</span>
+                </div>
+
+            </div>
+        </div>
+
+        <hr>
+        <br>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="col-md-6">
+                    <span>
+                        Temperature(Celsius) : {{weather.cityCurrentWeather.condition.temperature.celsius}}
+                    </span>
+                </div>
+
+                <div class="col-md-6">
+                   <span>                    Temperature(Fahrenheit) : {{weather.cityCurrentWeather.condition.temperature.fahrenheit}}
+</span>
+                </div>
+
+            </div>
+        </div>
+
+        <hr>
+        <br>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="col-md-6">
+                    <span>
+                        Sunrise : {{weather.cityCurrentWeather.solar.sunrise}}
+                    </span>
+                </div>
+
+                <div class="col-md-6">
+                   <span>Sunset : {{weather.cityCurrentWeather.solar.sunset}}
+</span>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>

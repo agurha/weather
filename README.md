@@ -15,11 +15,17 @@ In this App we are going to demonstrate how we can query the OpenWeather API and
 * [Weather Web]  Runs on http://localhost:3000/index.html
                  Designed as a Springboot application which currently serves the index.html. This is designed as an angular app. 
 
+#Screenshot 1 - Swagger UI showing Rest API 
 ![ScreenShot](https://github.com/agurha/weather/blob/master/screenshots/Screen%20Shot%202016-07-04%20at%2008.39.59.png)
+#Screenshot 2 - Showing Rest API call made via swagger UI and response received
 ![ScreenShot](https://github.com/agurha/weather/blob/master/screenshots/Screen%20Shot%202016-07-04%20at%2008.39.48.png)
+#Screenshot 3 - Showing Angular App for London weather retreived from Rest API which calls Open weather internally to get data
 ![ScreenShot](https://github.com/agurha/weather/blob/master/screenshots/Screen%20Shot%202016-07-04%20at%2008.40.41.png)
+#Screenshot 4 - Showing Angular App for Manchester weather retreived from Rest API which calls Open weather internally to get data
 ![ScreenShot](https://github.com/agurha/weather/blob/master/screenshots/Screen%20Shot%202016-07-04%20at%2008.40.58.png)
+#Screenshot 5 - Showing Run / Debug configuration for Web app which runs on http://localhost:3000 and serves index.html page 
 ![ScreenShot](https://github.com/agurha/weather/blob/master/screenshots/Screen%20Shot%202016-07-04%20at%2008.42.46.png)
+#Screenshot 5 - Showing Run / Debug configuration for Rest Api Application which runs on http://localhost:8090 and serves the API
 ![ScreenShot](https://github.com/agurha/weather/blob/master/screenshots/Screen%20Shot%202016-07-04%20at%2008.43.00.png)
 
 

@@ -15,5 +15,11 @@ In this App we are going to demonstrate how we can query the OpenWeather API and
 * [Weather Web]  Runs on http://localhost:3000/index.html
                  Designed as a Springboot application which currently serves the index.html. This is designed as an angular app. 
 
-![ScreenShot](https://github.com/agurha/weather/blob/master/screenshots/Screen%20Shot%202016-07-04%20at%2008.39.24.png)
+![ScreenShot](https://github.com/agurha/weather/blob/master/screenshots/Screen%20Shot%202016-07-04%20at%2008.39.59.png)
+![ScreenShot](https://github.com/agurha/weather/blob/master/screenshots/Screen%20Shot%202016-07-04%20at%2008.39.48.png)
+![ScreenShot](https://github.com/agurha/weather/blob/master/screenshots/Screen%20Shot%202016-07-04%20at%2008.40.41.png)
+![ScreenShot](https://github.com/agurha/weather/blob/master/screenshots/Screen%20Shot%202016-07-04%20at%2008.40.58.png)
+![ScreenShot](https://github.com/agurha/weather/blob/master/screenshots/Screen%20Shot%202016-07-04%20at%2008.42.46.png)
+![ScreenShot](https://github.com/agurha/weather/blob/master/screenshots/Screen%20Shot%202016-07-04%20at%2008.43.00.png)
+
 
